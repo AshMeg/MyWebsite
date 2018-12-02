@@ -39,6 +39,21 @@
   background-color: transparent;
 }
 
+.container .logonegro {
+  display: none;
+}
+
+.logonegro {
+  visibility: hidden;
+}
+
+@media (min-width: 992px){
+.logoblanco {
+   display: none;
+         }
+.logonegro {
+     display: block;}
+    }
 
 @media (min-width: 992px) {
   #mainNav {
