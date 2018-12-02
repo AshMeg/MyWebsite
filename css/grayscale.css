@@ -47,6 +47,11 @@
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
+
+  .logo {
+  content: url("img/logoblacksmall.png")   
+  }
+
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: rgba(255, 255, 255, 0.5);
