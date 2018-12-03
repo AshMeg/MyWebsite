@@ -122,6 +122,19 @@
   background-size: cover;
 }
 
+.about {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .masthead h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
