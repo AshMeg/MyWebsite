@@ -121,6 +121,12 @@
   background-attachment: scroll;
   background-size: cover;
 }
+.logoblanco {
+   display: none;
+         }
+.logonegro {
+     display: block; !important}
+    }
 
 .masthead h1 {
   font-family: 'Roboto', sans-serif;
@@ -254,7 +260,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #f7b2a2;
+  border-bottom: 0.25rem solid #64a19d;
 }
 
 .contact-section .card h4 {
