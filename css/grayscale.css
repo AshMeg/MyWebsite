@@ -44,7 +44,7 @@
   display: none;
 }
 .logoblanco {
-  display: block; !important;
+  display: block;
 }
 
 @media (max-width: 992px){
@@ -52,7 +52,7 @@
    display: none;
          }
 .logonegro {
-     display: block; !important;
+     display: block; !important}
     }
 
 @media (min-width: 992px) {
@@ -121,7 +121,6 @@
   background-attachment: scroll;
   background-size: cover;
 }
-
 
 .masthead h1 {
   font-family: 'Roboto', sans-serif;
@@ -207,7 +206,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #f7b2a2;
+    border-left: 0.5rem solid #64a19d;
   }
 }
 
@@ -221,7 +220,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #f7b2a2;
+    border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
@@ -255,7 +254,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #f7b2a2;
+  border-bottom: 0.25rem solid #64a19d;
 }
 
 .contact-section .card h4 {
