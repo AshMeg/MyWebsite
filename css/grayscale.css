@@ -180,13 +180,10 @@
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
   color: white;
 }
 
-.btn-primary:active {
-  background-color: #467370 !important;
-}
+
 
 .about-section {
   padding-top: 10rem;
