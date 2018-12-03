@@ -39,20 +39,20 @@
   background-color: transparent;
 }
 
-.container .logonegro {
-  display: none;
-}
 
 .logonegro {
-  visibility: hidden;
+  display: none;
+}
+.logoblanco {
+  display: block;
 }
 
-@media (min-width: 992px){
+@media (max-width: 992px){
 .logoblanco {
    display: none;
          }
 .logonegro {
-     display: block;}
+     display: block; !important}
     }
 
 @media (min-width: 992px) {
