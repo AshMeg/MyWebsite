@@ -44,7 +44,7 @@
   display: none;
 }
 .logoblanco {
-  display: block; !important;
+  display: block;
 }
 
 @media (max-width: 992px){
@@ -52,7 +52,7 @@
    display: none;
          }
 .logonegro {
-     display: block; !important;
+     display: block; !important}
     }
 
 @media (min-width: 992px) {
@@ -266,7 +266,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #f7b2a2;
+  border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -299,7 +299,7 @@ body {
 }
 
 a {
-  color: #f7b2a2;
+  color: #64a19d;
 }
 
 a:focus, a:hover {
