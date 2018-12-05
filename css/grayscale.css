@@ -178,14 +178,13 @@
   padding: 1.25rem 2rem;
   font-family: 'Roboto', sans-serif;
   font-size: 80%;
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
 }
 
 .btn-primary {
-  background-color: #fff;
+  background-color: #f7b2a2;
 }
 
 .btn-primary:hover {
