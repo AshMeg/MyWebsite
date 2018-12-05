@@ -14,8 +14,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #f7b2a2;
-  border: 1px solid #f7b2a2;
+  color: #64a19d;
+  border: 1px solid #64a19d;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -96,15 +96,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #f7b2a2;
+    color: #64a19d;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #f7b2a2;
+    color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid #f7b2a2;
+    border-bottom: 0.25rem solid #64a19d;
   }
 }
 
@@ -114,7 +114,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../img/mount-everst.jpg");
+  background: url("../img/Mount-everst.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -225,7 +225,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #f7b2a2;
+    border-left: 0.5rem solid #64a19d;
   }
 }
 
@@ -239,7 +239,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #f7b2a2;
+    border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
@@ -330,7 +330,7 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #f7b2a2 !important;
+  background-color: #64a19d !important;
 }
 
 .text-primary {
