@@ -13,9 +13,10 @@
 
 #mainNav .navbar-toggler {
   font-size: 80%;
+  font-weight: bold;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #f7b2a2;
+  border: 1px solid #f7b2a2;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -96,15 +97,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #f7b2a2;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #f7b2a2;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #f7b2a2;
   }
 }
 
@@ -114,9 +115,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(50%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/Mount-everst.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.01) 0%, rgba(22, 22, 22, 0.05) 50%, #161616 100%), url("../img/Mount-everst.jpg");
-  background-position: center;
+  background: url("../img/Mount-everst.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -195,6 +194,7 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -244,12 +244,20 @@
 }
 
 
-
 .about-section {
   padding-top: 10rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
+
+.aboutmasters {
+  margin: 0 auto;
+  width: 800px;
+  color: pink;
+  padding-top: 3rem;
+  background-color: white;
+}
+
 
 .about-section p {
   margin-bottom: 5rem;
@@ -266,7 +274,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #f7b2a2;
   }
 }
 
@@ -280,7 +288,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #f7b2a2;
     border-width: .25rem;
     width: 30%;
   }
@@ -358,7 +366,10 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
+}
+.mx-auto a {
+  color: pink;
 }
 
 a:focus, a:hover {
@@ -371,7 +382,7 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #f7b2a2 !important;
 }
 
 .text-primary {
