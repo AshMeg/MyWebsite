@@ -320,6 +320,9 @@ body {
 a {
   color: white;
 }
+.mx-auto a {
+  color: pink;
+}
 
 a:focus, a:hover {
   text-decoration: none;
