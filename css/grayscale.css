@@ -318,7 +318,10 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
+}
+.mx-auto a {
+  color: pink;
 }
 
 a:focus, a:hover {
