@@ -128,7 +128,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: url("../img/about.jpg");
-  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -242,7 +242,6 @@
 .btn-primary:focus {
   color: white;
 }
-
 
 .about-section {
   padding-top: 10rem;
