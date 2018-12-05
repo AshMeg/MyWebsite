@@ -121,25 +121,8 @@
   background-size: cover;
 }
 
-.about {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: url("../img/about.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
 
-#centergrid {
-  ;
-}
-
-
-
-.gridstem {
+.influencergrid {
   margin: 0 auto;
   width: 100%;
   height: auto;
@@ -149,7 +132,7 @@
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
-  border-radius:50%;
+
 }
 
 .thumbnail{
@@ -167,19 +150,7 @@
   border-radius:50%;
 }
 
-.btn-twitter {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  background: blue;
-  border-radius:50%;
-}
 
-.btn-insta {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  background: red;
-  border-radius:50%;
-}
 
 .masthead h1 {
   font-family: 'Roboto', sans-serif;
