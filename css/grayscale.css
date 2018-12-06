@@ -121,7 +121,9 @@
   background-size: cover;
 }
 
+/* CSS for Sector Pages */
 
+/* Grid itself */
 .influencergrid {
   margin: 0 auto;
   width: 100%;
@@ -129,28 +131,26 @@
   min-height: 35rem;
   padding: 2rem 2rem 2rem 2rem;
   background: white;
-  background-position: center;
-  background-attachment: scroll;
-  background-size: cover;
-
 }
 
+/* Thumbnail: profile pic + caption and buttons */
 .thumbnail{
   text-align: center;
 }
 
-.caption {
-  text-align: center;
-  background:lightgray;
-  padding:1rem 1rem 1rem 1rem;
-  border-radius: 20px;
-}
+    /* Caption: box with words and container of buttons */
+    .caption {
+      text-align: center;
+      background:lightgray;
+      padding:1rem 1rem 1rem 1rem;
+      border-radius: 20px;
+    }
 
-.profilepic{
-  border-radius:50%;
-}
+    .profilepic{
+      border-radius:50%;
+    }
 
-
+/* Ends */
 
 .masthead h1 {
   font-family: 'Roboto', sans-serif;
