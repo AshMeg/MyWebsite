@@ -121,6 +121,14 @@
   background-size: cover;
 }
 
+.centrado img {
+vertical-align: middle;
+border-style: none;
+width: 80%;
+display: block;
+margin: 0 auto;
+}
+
 /* CSS for Sector Pages */
 
 /* Grid itself */
