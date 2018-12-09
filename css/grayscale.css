@@ -40,12 +40,19 @@
   background-color: transparent;
 }
 
-
 .logonegro {
   display: none;
 }
 .logoblanco {
   display: block;
+}
+
+.logonegro: scrolled {
+  display: block; !important;
+}
+
+.logoblanco: scrolled {
+  display: none;
 }
 
 @media (max-width: 992px){
