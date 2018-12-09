@@ -328,6 +328,14 @@ margin: 0 auto;
   color: #A5DF00;
 }
 
+.bluelink a{
+  color: #4CD7E9;
+}
+
+.teallink a{
+  color: #1EB482;
+}
+
 .singuplink a{
   color: #f7b2a2;
 }
