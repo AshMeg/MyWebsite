@@ -47,14 +47,6 @@
   display: block;
 }
 
-.logonegro: scrolled {
-  display: block; !important;
-}
-
-.logoblanco: scrolled {
-  display: none;
-}
-
 @media (max-width: 992px){
 .logoblanco {
    display: none;
