@@ -175,13 +175,20 @@ margin: 0 auto;
     /* Caption: box with words and container of buttons */
     .caption {
       text-align: center;
-      background:lightgray;
+      background:#c6c6c5;
       padding:1rem 1rem 1rem 1rem;
-      border-radius: 20px;
+      border-radius: 10px;
+    }
+
+    .caption h3{
+      color: white;
+      font-weight: bold;
     }
 
     .profilepic{
       border-radius:50%;
+      padding: 2rem 2rem 2rem 2rem;
+
     }
 
 /* Ends */
