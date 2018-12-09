@@ -15,7 +15,18 @@
     }
   });
 
-
+  //Logo color change
+  $(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $('#mainNav').addClass('logoblanco');
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $('.navbar-brand img').attr(src, 'img/logowhitesmall.png'); //change src
+    } else {
+        $('#mainNav').removeClass('logoblanco');
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $('.navbar-brand img').attr(scr, 'img/logoblacksmall.jpg')
+    }
+});
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
