@@ -121,6 +121,19 @@
   background-size: cover;
 }
 
+.about {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .centrado img {
 vertical-align: middle;
 border-style: none;
