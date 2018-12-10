@@ -208,6 +208,19 @@ margin: 0 auto;
   background-size: cover;
 }
 
+.Technology {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/tech.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 /* Ends */
 
 
