@@ -230,7 +230,6 @@ margin: 0 auto;
 .influencergrid {
   margin: 0 auto;
   width: 80%;
-  height: auto;
   min-height: 35rem;
   background: white;
   padding: 0rem 0rem 5rem 0rem;
@@ -246,7 +245,7 @@ margin: 0 auto;
     .caption {
       text-align: center;
       background:#c6c6c5;
-      padding:2rem 2rem 2rem 2rem;
+      padding:2rem 2rem 1rem 2rem;
       border-radius: 10px;
     }
 
@@ -286,6 +285,7 @@ margin: 0 auto;
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
+  margin: 0.5rem;
   font-family: 'Roboto', sans-serif;
   font-size: 50%;
   text-transform: uppercase;
