@@ -134,6 +134,33 @@
   background-size: cover;
 }
 
+.centrado img {
+vertical-align: middle;
+border-style: none;
+width: 80%;
+display: block;
+margin: 0 auto;
+}
+
+.masthead h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+/* Mastheads for Sector Pages */
+
 .engineering {
   position: relative;
   width: 100%;
@@ -174,13 +201,6 @@
 }
 
 
-.centrado img {
-vertical-align: middle;
-border-style: none;
-width: 80%;
-display: block;
-margin: 0 auto;
-}
 
 /* CSS for Sector Pages */
 
@@ -222,21 +242,6 @@ margin: 0 auto;
 
 /* Ends */
 
-.masthead h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
-  color: #fff;
-}
 
 @media (min-width: 768px) {
   .masthead h1 {
