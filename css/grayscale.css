@@ -227,19 +227,15 @@ margin: 0 auto;
 /* Thumbnail: profile pic + caption and buttons */
 .thumbnail{
   text-align: center;
-}
+    }
 
     /* Caption: box with words and container of buttons */
     .caption {
       text-align: center;
       background:#c6c6c5;
-      padding:1rem 1rem 1rem 1rem;
+      padding:2rem 2rem 2rem 2rem;
       border-radius: 10px;
-    }
 
-    .caption h3{
-      color: white;
-      font-weight: bold;
     }
 
     .profilepic{
@@ -249,6 +245,7 @@ margin: 0 auto;
     }
 
 /* Ends */
+
 
 
 @media (min-width: 768px) {
