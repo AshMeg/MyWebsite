@@ -208,9 +208,10 @@ margin: 0 auto;
   background-size: cover;
 }
 
+/* Ends */
 
 
-/* CSS for Sector Pages */
+/* Grid for Sector Pages */
 
 /* Grid itself */
 .influencergrid {
@@ -235,13 +236,11 @@ margin: 0 auto;
       background:#c6c6c5;
       padding:2rem 2rem 2rem 2rem;
       border-radius: 10px;
-
     }
 
     .profilepic{
       border-radius:50%;
       padding: 2rem 2rem 2rem 2rem;
-
     }
 
 /* Ends */
