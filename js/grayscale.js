@@ -24,7 +24,7 @@
     } else {
         $('#mainNav').removeClass('logoblanco');
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $('.navbar-brand img').attr(scr, 'img/logoblacksmall.jpg')
+        $('.navbar-brand img').attr(scr, 'img/logoblacksmall.jpg');
     }
 });
 
