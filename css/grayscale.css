@@ -47,6 +47,7 @@
   display: block;
 }
 
+
 @media (max-width: 992px){
 .logoblanco {
    display: none;
@@ -86,6 +87,13 @@
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
+
+  }
+  #mainNav.navbar-shrink .logonegro{
+    display: block;
+  }
+  #mainNav.navbar-shrink .logoblanco{
+    display: none;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
