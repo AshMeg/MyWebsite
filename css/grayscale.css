@@ -299,6 +299,10 @@ margin: 0 auto;
 
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .btn-primary:hover {
   background-color: #4f837f;
 }
